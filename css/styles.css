@@ -16,7 +16,7 @@
 .item:nth-child(1) {
     background-color: darkorange;
     order: -1;
-    flex: 2 1 150px;
+    flex-basis: 50%;
 }
 .item:nth-child(2) {
     background-color: lightblue;
@@ -36,5 +36,5 @@
 .item:nth-child(5) {
     background-color: yellow;
     order: 0;
-    flex: 2 1 150px;
+    flex-basis: 50%;
 }
